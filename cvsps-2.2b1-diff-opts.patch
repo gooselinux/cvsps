@@ -1,0 +1,12 @@
+diff -up cvsps-2.2b1/cvsps.1.orig cvsps-2.2b1/cvsps.1
+--- cvsps-2.2b1/cvsps.1.orig	2009-12-22 21:16:20.000000000 +0200
++++ cvsps-2.2b1/cvsps.1	2009-12-22 21:16:25.000000000 +0200
+@@ -83,7 +83,7 @@ some hacks which are not generally appli
+ disable the use of rlog internally.  Note: rlog is
+ required for stable PatchSet numbering.  Use with care.
+ .TP
+-.B \-\-diffs\-opts <option string>
++.B \-\-diff\-opts <option string>
+ send a custom set of options to diff, for example to increase
+ the number of context lines, or change the diff format.
+ .TP
